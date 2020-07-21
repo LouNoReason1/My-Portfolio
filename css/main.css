@@ -1,0 +1,162 @@
+/****Base style ****/
+/***style for the header***/
+{
+  font-family: 'Source Sans Pro', arial;
+  color: #2b2b2b;
+
+}
+/****Grid***/
+/** that's my link styling, my work, about and contact***/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width { /** that's my header styling the first hafl.width***/
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+/***HEADER***/
+header {/***header paragraph styling***/
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    color: /**magenta;**/ #bbc085;
+    padding: 65px 0 65px 25px;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{ /** display the button next to each other about work and contact**/
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: /**blue; **/ #828282;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 52px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span { /*** that's the hello, put it in span to syle it alone**/
+    color: /**purple;**/ #2b2b2b;
+}
+/****** ABOUT ******/
+
+#about .full-width {/**id the about section to style it***/
+    padding: 80px 0;
+}
+
+#about h2 { /** the tile of the header of the about me section**/
+    font-family: 'Lora', serif;
+    font-size: 46px;
+    padding-left: 50px;
+}
+#about p {/** the paragraph below the header**/
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/****** WORK ******/
+
+#work {/**the work section bacground color and style**/
+    background-color: #f9ceb7;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 { /** the header of the work section**/
+    font-size: 24px;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#work p {/** the paragraph style of that section work section**/
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/****** CONTACT ******/
+
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 110px 0;/** add the space between the other sections**/
+}
+#contact img#contact-img {/** id for the contact image if you have one**/
+  /** add margin and border**/
+    margin-left: 25px;
+    border: 8px solid #ffffff;
+    text-align: center;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {/**the email link**/
+    text-decoration: none;
+    color: /**blue;**/#c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li { /** the list of social media inline meaning next to each other**/
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 28px;
+}
